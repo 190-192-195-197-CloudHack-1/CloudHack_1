@@ -58,6 +58,6 @@ A repository containing files and data for the CloudHack assignment as part of t
       
                         kubectl get svc -n mongodb-namespace
   
-      Once this is run we will be able to access the flask app and mongodb-express admin console at the resulting cluster ip addresses with their port numbers.
+ Once this is run we will be able to access the flask app and mongodb-express admin console at the resulting cluster ip addresses with their port numbers.
   
 
