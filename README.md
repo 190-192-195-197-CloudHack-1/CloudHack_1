@@ -4,7 +4,9 @@ A repository containing files and data for the CloudHack assignment as part of t
 # Implementation:
 
 1. Start the minikube cluster,
+
       minikube start
+      
       eval $(minikube docker-env)
       
 2. Build the docker image for the flask app
