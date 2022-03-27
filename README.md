@@ -54,7 +54,7 @@ A repository containing files and data for the CloudHack assignment as part of t
       
                         minikube tunnel
                         
-      In another terminal run, (must be in the same directory with all the files)
+  In another terminal run, (must be in the same directory with all the files)
       
                         kubectl get svc -n mongodb-namespace
   
