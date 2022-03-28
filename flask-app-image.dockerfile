@@ -5,8 +5,7 @@
 
 FROM python
 COPY app .
-#RUN ["/usr/bin/sudo", "ap/usr/bin/apt-get", "install", "python3-pip"]
-#RUN ["/usr/bin/apt-get", "install", "python3-pip"]
+
 RUN apt-get update && apt-get install -y python3-pip
 
 RUN ["/usr/bin/python3", "-m", "pip", "install", "-r", "requirements.txt"]
