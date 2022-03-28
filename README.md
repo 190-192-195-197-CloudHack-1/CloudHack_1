@@ -47,7 +47,7 @@ A repository containing files and data for the CloudHack assignment as part of t
       
 5. Connecting to mongodb via mongosh -
 
-                  mongosh --username admin --password password  --host localhost --port 28017
+                  mongosh --username ccteam10 --password password  --host jjji10 --port 28017
   
 6.Minikube Tunnel :
       By running the following commands, the containers will get ip addresses which can be accessed via the browser,
